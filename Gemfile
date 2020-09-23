@@ -7,7 +7,6 @@ end
 
 
 gem 'rails', '~> 5.1.7'
-gem 'sqlite3', '<1.4'
 gem 'puma', '~> 3.7'
 gem 'sassc', '~> 2.1.0'
 gem 'sass-rails', '~> 5.0'
@@ -33,6 +32,7 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'sqlite3', '<1.4'
 end
 
 group :production do
