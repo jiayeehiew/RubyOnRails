@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
     def index
-        @articles = Article.last(2) 
+        @articles = Article.all
     end
 
     def contact
