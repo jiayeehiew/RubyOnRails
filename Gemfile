@@ -20,6 +20,8 @@ gem 'font-awesome-sass', '~> 4.5'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.5'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
